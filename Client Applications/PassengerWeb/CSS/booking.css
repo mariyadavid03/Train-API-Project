@@ -1,0 +1,105 @@
+
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.top {
+    background-color: rgb(21, 153, 235);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.heading{
+    color: white;
+    margin: 0;
+}
+.train-info-display {
+    text-align: center;
+    background-color: #ffffbd;
+    border-radius: 10px; 
+    box-shadow: 2px 4px 8px rgba(87, 87, 87, 0.49);
+    padding: 10px;
+    position: absolute;
+    left: 58%;
+    width: 23%;
+
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.labels {
+    flex: 1;
+}
+.info-display {
+    flex: 1;
+}
+.labels label,
+.info-display label {
+    display: block;
+    margin-bottom: 5px;
+}
+.btn{
+    background-color: rgb(21, 153, 235);
+    padding: 3px 10px;
+    margin-top: 20px;
+    border-color: rgb(79, 153, 218);
+    border-style: solid;
+    cursor: pointer;
+    
+}
+button .btn :hover{
+    background-color: rgb(124, 188, 228); 
+}
+.train{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.train-data-view{
+    position: relative;
+    left: -65%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 7px;
+    background-color: green;
+    border-radius: 3px;
+}
+.train-data-view table{
+    padding: 15px 29px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px rgba(87, 87, 87, 0.49);
+    border-collapse: collapse;
+    background: rgb(210, 238, 255);
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.train-data-view th{
+font-size: smaller;
+}
+.train-data-view td, th {
+    border: 1px solid black; 
+    padding: 8px; 
+}
+.btnSelect{
+    
+        background: white;
+        border: none;
+        padding: 5px 14px;
+        font-size: 14px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #060605a8;
+}
